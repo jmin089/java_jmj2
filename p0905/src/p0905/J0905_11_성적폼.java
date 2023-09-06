@@ -2,7 +2,7 @@ package p0905;
 
 import java.util.Scanner;
 
-public class J0905_11_기억하기 {
+public class J0905_11_성적폼 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
