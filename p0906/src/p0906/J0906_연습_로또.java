@@ -70,6 +70,6 @@ public class J0906_연습_로또 {
 			System.out.print(ok[i]+"  ");
 		}
 	
-	}
+	}//main
 
-}
+}//class
