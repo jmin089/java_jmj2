@@ -37,7 +37,7 @@ public class J0907_07_성적 {
 			case 1 :
 				System.out.println("[ 성적입력화면 ]");
 				System.out.println("------------");
-				for(int i=count;i<10;i++) {
+				for(int i=count;i<10;i++) {//for(1)
 					stuNo[i] = count+1;                  //학번 1,2,3......
 					System.out.println((count+1)+"번째 이름을 입력하세요.(이전화면 : 0)");
 					name[i] = scan.next();
@@ -65,7 +65,7 @@ public class J0907_07_성적 {
 //					System.out.println("점수를 입력하세요.");
 //					score[i][2] = scan.nextInt();
 					
-				}//for
+				}//for(1)
 				System.out.println();
 				break;
 				
@@ -76,7 +76,7 @@ public class J0907_07_성적 {
 				System.out.printf("%s\t %s\t %s\t %s\t %s\t %s\t %s\n",
 						title[0], title[1], title[2], title[3], title[4], title[5], title[6]);
 				System.out.println("-----------------------------------------------------");
-				for(int i=0;i<count;i++) {
+				for(int i=0;i<count;i++) {//for(2)
 					System.out.printf("%d\t",stuNo[i]);
 					System.out.printf("%s\t",name[i]);
 					//국어, 영어, 수학점수 출력 ================================================
@@ -86,7 +86,7 @@ public class J0907_07_성적 {
 					}
 					System.out.printf("%d\t",total[i]);
 					System.out.printf("%.2f\n",avg[i]);
-				}//for
+				}//for(2)
 				System.out.println();
 				break;
 				
