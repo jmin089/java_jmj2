@@ -47,7 +47,6 @@ public class StuAction {
 		}//while
 		return stuCount;
 	}//stuInput
-	
-	
+		
 	
 }//class

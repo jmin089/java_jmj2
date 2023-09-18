@@ -3,8 +3,7 @@ package p0918_학생성적;
 public class StuScore {
 
 	static int count = 1;
-	{
-		stuNo = count;
+	{	stuNo = count;
 		count++;
 	}
 	

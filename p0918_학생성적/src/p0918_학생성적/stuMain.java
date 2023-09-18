@@ -16,7 +16,9 @@ public class stuMain {
 			case 1:
 				stuCount = stuAction.stuInput(stuCount);				
 				break;
-			
+			case 2 : 
+				
+				break;
 			}//switch(choice)
 	    
 		}//loop:while
