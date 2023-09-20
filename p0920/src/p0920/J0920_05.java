@@ -19,13 +19,13 @@ public class J0920_05 {
 				
 		String year = "";
 		int age = 0;
-		if(ch=='1'||ch=='2') {
+		if(ch=='1'|| ch=='2') {
 			year = "19"+str; //년도
-			//year 문자열을 정수형으로 형변화 해야함.
-			age = 2023 - Integer.parseInt(year);;
+			//year 문자열을 정수형으로 형변환 해야함.
+			age = 2023 - Integer.parseInt(year);;  //integer.parstint() 문자열을 기본형(int)로 형변환
 		}else {
 			year = "20"+str;  //년도
-			age = 2023 - Integer.parseInt(year);;
+			age = 2023 - Integer.parseInt(year);;  //integer.parstint() 문자열을 기본형(int)로 형변환
 		}
 		
 		System.out.println("당신의 나이 : "+age );
@@ -33,7 +33,7 @@ public class J0920_05 {
 		//2. 계절확인(12월~2월 : 겨울, 3월~5월 : 봄, 6월~8월 : 여름, 9월~11월 : 가을)
 		//당신이 태어난 계절 : 가을
 		
-		String s = input.substring(2,4);
+		String s = input.substring(2,4);    //890523 - 2:0 4:5(4번째 자리 앞)
 		String season = "";
 		
 		switch(s) {

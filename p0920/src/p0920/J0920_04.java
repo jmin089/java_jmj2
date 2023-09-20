@@ -10,7 +10,7 @@ public class J0920_04 {
 		String str = "abcdefghijk";
 		//f를 추출해서 출렵하시오.
 		//charAt()
-		System.out.println(str.charAt(5));
+		System.out.println(str.charAt(5));   //0번째 자리부터 시작해서 f는 5
 		//fghi
 		System.out.println(""+str.charAt(5)+str.charAt(6)+str.charAt(7)+str.charAt(8));
 		

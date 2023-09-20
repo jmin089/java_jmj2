@@ -3,7 +3,7 @@ package p0920;
 public class J0920_01 {
 
 	public static void main(String[] args) {
-		Student s1 = new Student(1001);
+		Student s1 = new Student(1001);   //객체 (student class 불러오기.)
 		System.out.println(s1.getStuNum());
 
 		Student s2 = new Student(1001);
