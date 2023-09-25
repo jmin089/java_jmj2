@@ -8,7 +8,7 @@ public class StuScore {
 		count++;
 	}
 	
-	StuScore(){}
+	public StuScore(){}
 		
 	public StuScore(String name, int kor, int eng, int math) {
 		this.name = name;
